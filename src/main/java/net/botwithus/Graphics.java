@@ -90,6 +90,13 @@ public class Graphics extends ScriptGraphicsContext {
         }
 
     }
+
+    @Override
+    public void drawOverlay() {
+        super.drawOverlay();
+    }
+
+
     public static List<String> predefinedNotepaperNames = List.of(
             "Huge bladed rune salvage",
             "Huge spiky rune salvage",
@@ -116,9 +123,4 @@ public class Graphics extends ScriptGraphicsContext {
             "Ascension Keystone Sextus"
 
     );
-
-    @Override
-    public void drawOverlay() {
-        super.drawOverlay();
-    }
 }
